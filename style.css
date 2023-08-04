@@ -111,9 +111,11 @@ nav ul li a{
     .content{
         display: none;
     }
-    .backvideo{
-        position: absolute;
-        left: -50vw;
+    .hero{
+        background-image: url(Images/myhomeimage.png) ;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
     }
 }
 
