@@ -114,7 +114,7 @@ nav ul li a{
     .checkbtn{
         display: block;
     }
-    ul{
+    nav ul{
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -182,7 +182,7 @@ nav ul li a{
     z-index: -2;
     height: auto;
     width: 100%;
-    border: 5px solid black;
+    border: 3px solid #3b424a;
     
 }
 
@@ -265,7 +265,6 @@ nav ul li a{
     content: '';
     position: absolute;
     width: 6px;
-    height: 100%;
     background: #080A20;
     top: 0;
     left: 50%;
@@ -378,7 +377,8 @@ footer .social-icons li a{
     color: #DCE1DF;
     margin: 0px 20px;
     display: inline-block;
-    transition: 0.3s;
+    transition: 0.5s;
+    background: none;
 }
 
 footer .social-icons li a:hover{
@@ -399,6 +399,7 @@ footer .footer-menu a:hover{
 }
 
 footer p{
+    display: inline-block;
     color: #DCE1DF;
     text-align: center;
     margin-bottom: 10px;
